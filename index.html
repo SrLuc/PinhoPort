@@ -11,10 +11,19 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body class="theme-dark">
+  <!-- Botão WhatsApp Flutuante -->
+  <a href="https://wa.me/5581997684836" class="whatsapp-float" target="_blank" rel="noopener" aria-label="Entre em contato via WhatsApp">
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+      <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893-.001-3.189-1.248-6.189-3.515-8.452"/>
+    </svg>
+  </a>
+
   <header class="site-header" id="top">
     <nav class="nav" aria-label="Navegação principal">
       <button class="nav-toggle" aria-expanded="false" aria-controls="nav-list" aria-label="Abrir menu">
-        ☰
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
       </button>
       <h1 class="brand"><a href="#top">PINHO<span class="brand-dot">.</span>PORT</a></h1>
 
@@ -54,8 +63,8 @@
           </div>
 
           <div class="hero-ctas">
-            <a class="btn btn-primary" href="#contato">Agendar avaliação</a>
-            <a class="btn btn-outline" href="#planos">Ver planos</a>
+            <a class="btn btn-primary smooth-scroll" href="#contato">Agendar avaliação</a>
+            <a class="btn btn-outline smooth-scroll" href="#planos">Ver planos</a>
           </div>
         </div>
 
@@ -135,7 +144,7 @@
             <h4>Planilha de Corrida Personalizada</h4>
             <p>Videochamada inicial, planilha no app de corrida, ritmos e zonas, atualizações mensais e suporte via WhatsApp.</p>
             <div class="service-actions">
-              <a href="#contato" class="btn btn-secondary">Quero minha planilha</a>
+              <a href="#contato" class="btn btn-secondary smooth-scroll">Quero minha planilha</a>
               <span class="price">R$ 89,90 / mês</span>
             </div>
           </div>
@@ -149,7 +158,7 @@
             <h4>Consultoria Online</h4>
             <p>Acompanhamento completo com revisão semanal, vídeos demonstrativos e suporte direto.</p>
             <div class="service-actions">
-              <a href="#contato" class="btn btn-secondary">Começar consultoria</a>
+              <a href="#contato" class="btn btn-secondary smooth-scroll">Começar consultoria</a>
               <span class="price">R$ 159,90 / mês</span>
             </div>
           </div>
@@ -163,7 +172,7 @@
             <h4>Combo Híbrido (Corrida + Força)</h4>
             <p>Plano integrado para acelerar resultados, prevenir lesões e acompanhar evolução técnica.</p>
             <div class="service-actions">
-              <a href="#contato" class="btn btn-secondary">Quero meu plano híbrido</a>
+              <a href="#contato" class="btn btn-secondary smooth-scroll">Quero meu plano híbrido</a>
               <span class="price">R$ 199,90 / mês</span>
             </div>
           </div>
@@ -193,7 +202,7 @@
             <li>Suporte básico (WhatsApp)</li>
           </ul>
           <div class="plan-cta">
-            <a href="#contato" class="btn btn-primary">Assinar Essencial</a>
+            <a href="#contato" class="btn btn-primary smooth-scroll">Assinar Essencial</a>
           </div>
         </article>
 
@@ -209,7 +218,7 @@
             <li>Suporte prioritário</li>
           </ul>
           <div class="plan-cta">
-            <a href="#contato" class="btn btn-primary">Assinar Consultoria</a>
+            <a href="#contato" class="btn btn-primary smooth-scroll">Assinar Consultoria</a>
           </div>
         </article>
 
@@ -224,7 +233,7 @@
             <li>Avaliações periódicas</li>
           </ul>
           <div class="plan-cta">
-            <a href="#contato" class="btn btn-primary">Assinar Híbrido</a>
+            <a href="#contato" class="btn btn-primary smooth-scroll">Assinar Híbrido</a>
           </div>
         </article>
       </div>
@@ -242,7 +251,7 @@
           <div class="help-overlay">
             <h4>Treinos de Força</h4>
             <p>Programas de 30–60 minutos focados em força funcional para corredores.</p>
-            <a class="btn btn-secondary overlay-btn" href="#contato">Quero saber mais</a>
+            <a class="btn btn-secondary overlay-btn smooth-scroll" href="#contato">Quero saber mais</a>
           </div>
         </article>
 
@@ -251,7 +260,7 @@
           <div class="help-overlay">
             <h4>Planos de Corrida</h4>
             <p>Planilhas personalizadas com ritmos, zonas e acompanhamento no app.</p>
-            <a class="btn btn-secondary overlay-btn" href="#contato">Solicitar planilha</a>
+            <a class="btn btn-secondary overlay-btn smooth-scroll" href="#contato">Solicitar planilha</a>
           </div>
         </article>
       </div>
@@ -329,13 +338,47 @@
     // small helpers: current year
     document.getElementById('year').textContent = new Date().getFullYear();
 
-    // NAV TOGGLE (mobile)
+    // NAV TOGGLE (mobile) - CORRIGIDO
     const navToggle = document.querySelector('.nav-toggle');
     const navList = document.querySelector('#nav-list');
-    navToggle.addEventListener('click', () => {
+    
+    navToggle.addEventListener('click', (e) => {
+      e.stopPropagation();
       const expanded = navToggle.getAttribute('aria-expanded') === 'true';
       navToggle.setAttribute('aria-expanded', String(!expanded));
       navList.classList.toggle('open');
+    });
+
+    // Fechar menu ao clicar fora
+    document.addEventListener('click', (e) => {
+      if (!navList.contains(e.target) && !navToggle.contains(e.target)) {
+        navList.classList.remove('open');
+        navToggle.setAttribute('aria-expanded', 'false');
+      }
+    });
+
+    // SCROLL SUAVE PARA TODOS OS LINKS
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        
+        const targetId = this.getAttribute('href');
+        if (targetId === '#') return;
+        
+        const targetElement = document.querySelector(targetId);
+        if (targetElement) {
+          // Fechar menu mobile se estiver aberto
+          navList.classList.remove('open');
+          navToggle.setAttribute('aria-expanded', 'false');
+          
+          // Scroll suave
+          const offsetTop = targetElement.offsetTop - 80; // Offset para navbar fixa
+          window.scrollTo({
+            top: offsetTop,
+            behavior: 'smooth'
+          });
+        }
+      });
     });
 
     // IntersectionObserver for fade-up animations
@@ -351,20 +394,26 @@
     document.querySelectorAll('.fade-up').forEach(el => io.observe(el));
     document.querySelectorAll('.service-item, .help-card, .plan-card, .dif-card, .panel-header').forEach(el => io.observe(el));
 
-    // Navbar active link on scroll
+    // Navbar active link on scroll - MELHORADO
     const sections = document.querySelectorAll('main section[id]');
     const navLinks = document.querySelectorAll('.nav-link');
 
     const navObserver = new IntersectionObserver((entries) => {
       entries.forEach(entry => {
-        const id = entry.target.getAttribute('id');
-        const link = document.querySelector('.nav-link[href="#' + id + '"]');
         if (entry.isIntersecting) {
-          navLinks.forEach(l => l.classList.remove('active'));
-          if (link) link.classList.add('active');
+          const id = entry.target.getAttribute('id');
+          navLinks.forEach(link => {
+            link.classList.remove('active');
+            if (link.getAttribute('href') === `#${id}`) {
+              link.classList.add('active');
+            }
+          });
         }
       });
-    }, { threshold: 0.45 });
+    }, { 
+      threshold: 0.3,
+      rootMargin: '-80px 0px -70% 0px' // Ajuste fino para melhor detecção
+    });
 
     sections.forEach(section => navObserver.observe(section));
   </script>
