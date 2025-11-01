@@ -41,7 +41,7 @@ const mapsQuery = "Recife PE";
 
       <div class="social-contacts">
         <a
-          :href="`https://wa.me/${whatsappNumberLink}`"
+          href="https://w.app/31mytr"
           class="contact"
           target="_blank"
         >
@@ -88,7 +88,7 @@ const mapsQuery = "Recife PE";
 
          <a
         target="_blank"
-        href="https://wa.me/55997684836"
+        href="https://w.app/31mytr"
         class="link"
       >
         <img class="link-img" src="/assets/corrida.png" alt="" />
@@ -270,7 +270,6 @@ body.dark .link:hover {
 .card {
   display: flex;
   align-items: center;
-  background: #f5f5f5;
   border-radius: 12px;
   padding: 1rem;
   margin: 10px 0;
