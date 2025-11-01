@@ -23,7 +23,7 @@ onMounted(() => applyTheme(theme.value));
 
 // Contatos
 const whatsappNumberDisplay = "99 7684-4836";
-const whatsappNumberLink = "+55997684836";
+const whatsappNumberLink = "55997684836";
 const email = "pinho.mateus@icloud.com";
 const mapsQuery = "Recife PE";
 </script>
