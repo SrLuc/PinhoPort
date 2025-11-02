@@ -113,7 +113,7 @@ const mapsQuery = "Recife PE";
     { label: 'Mensal', value: 'R$ 89,90' },
   ]"
   imgSrc="/assets/img5.jpg"
-  ctaText="🟩 Quero minha planilha personalizada"
+  ctaText="🟩 Quero saber mais sobre o plano mensal"
   ctaLink="https://w.app/31mytr"
 />
 
@@ -124,7 +124,7 @@ const mapsQuery = "Recife PE";
     { label: 'Semestral', value: '6x R$ 49,90 ou R$ 299,40 à vista' }
   ]"
   imgSrc="/assets/img4.jpg"
-  ctaText="🟩 Quero minha planilha personalizada"
+  ctaText="🟩 Plano mensal + Planilha Personalizada"
   ctaLink="https://w.app/31mytr"
 />
 
@@ -135,7 +135,7 @@ const mapsQuery = "Recife PE";
     { label: 'Anual', value: '12x R$ 44,90 ou R$ 538,80 à vista' }
   ]"
   imgSrc="/assets/img7.jpg"
-  ctaText="🟩 Quero minha planilha personalizada"
+  ctaText="🟩 Acompanhamento completo anual"
   ctaLink="https://w.app/31mytr"
 />
 
