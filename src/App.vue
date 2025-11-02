@@ -1,6 +1,7 @@
 <script setup>
 import { ref, onMounted } from "vue";
 import Card from "./components/Card.vue";
+import Plans from "./components/Plans.vue";
 
 const THEME_KEY = "site_theme";
 const theme = ref(localStorage.getItem(THEME_KEY) || "light");
@@ -40,11 +41,7 @@ const mapsQuery = "Recife PE";
       </p>
 
       <div class="social-contacts">
-        <a
-          href="https://w.app/31mytr"
-          class="contact"
-          target="_blank"
-        >
+        <a href="https://w.app/31mytr" class="contact" target="_blank">
           <i class="fab fa-whatsapp"></i>
           <span>📱 {{ whatsappNumberDisplay }}</span>
         </a>
@@ -67,13 +64,9 @@ const mapsQuery = "Recife PE";
           ><i class="fas fa-globe"></i> 🏅 Athletic Lab Nível 1</span
         >
 
-        <span class="contact"
-          ><i class="fas fa-globe"></i>🏅 FMS 1</span
-        >
+        <span class="contact"><i class="fas fa-globe"></i>🏅 FMS 1</span>
 
-        <span class="contact"
-          ><i class="fas fa-globe"></i>🏅 CFSC</span
-        >
+        <span class="contact"><i class="fas fa-globe"></i>🏅 CFSC</span>
       </div>
 
       <div class="socials">
@@ -85,14 +78,9 @@ const mapsQuery = "Recife PE";
     </div>
 
     <div class="links fade-in">
-
-         <a
-        target="_blank"
-        href="https://w.app/31mytr"
-        class="link"
-      >
+      <a target="_blank" href="https://w.app/31mytr" class="link">
         <img class="link-img" src="/assets/corrida.png" alt="" />
-        <span class="link-text">Agendar Avaliação</span>
+        <span class="link-text">Marcar Aula Experimental</span>
       </a>
 
       <a
@@ -103,20 +91,55 @@ const mapsQuery = "Recife PE";
         <img class="link-img" src="/assets/musculo.png" alt="" />
         <span class="link-text">Anamnese - Musculação</span>
       </a>
-
-
     </div>
 
     <Card
       title="Planilha de Corrida"
       text="Plano personalizado."
       imgSrc="/assets/img1.jpg"
+      link="https://w.app/31mytr"
     />
     <Card
       title="Consultoria Online"
       text="Treinos ajustados semanalmente."
       imgSrc="/assets/img2.JPG"
+      link="https://w.app/31mytr"
     />
+
+    <Plans
+  title="Plano Mensal"
+  idealFor="Corredores iniciantes ou intermediários que desejam treinar com segurança, autonomia e propósito."
+  :prices="[
+    { label: 'Mensal', value: 'R$ 89,90' },
+  ]"
+  imgSrc="/assets/img5.jpg"
+  ctaText="🟩 Quero minha planilha personalizada"
+  ctaLink="https://w.app/31mytr"
+/>
+
+<Plans
+  title="Plano Semestral"
+  idealFor="Corredores que querem treinos contínuos e acompanhamento por 6 meses."
+  :prices="[
+    { label: 'Semestral', value: '6x R$ 49,90 ou R$ 299,40 à vista' }
+  ]"
+  imgSrc="/assets/img4.jpg"
+  ctaText="🟩 Quero minha planilha personalizada"
+  ctaLink="https://w.app/31mytr"
+/>
+
+<Plans
+  title="Plano Anual"
+  idealFor="Corredores que desejam acompanhamento completo por 12 meses."
+  :prices="[
+    { label: 'Anual', value: '12x R$ 44,90 ou R$ 538,80 à vista' }
+  ]"
+  imgSrc="/assets/img7.jpg"
+  ctaText="🟩 Quero minha planilha personalizada"
+  ctaLink="https://w.app/31mytr"
+/>
+
+
 
     <footer>© 2025 Mateus Pinho • Todos os direitos reservados</footer>
   </main>
