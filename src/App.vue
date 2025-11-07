@@ -34,10 +34,14 @@ const mapsQuery = "Recife PE";
     <div class="bg-anim" aria-hidden="true"></div>
 
     <div class="header slide-down">
-      <img class="eu" src="/assets/eu.png" alt="Mateus" />
+      <img class="eu" src="/assets/eu.jpg" alt="Mateus" />
       <h1 id="name">Mateus Pinho</h1>
+      <br>
       <p class="bio">
-        Personal Trainer especializado em fortalecimento para corredores
+        Sou Mateus Pinho, personal trainer especializado em fortalecimento para
+        corredores. Graduado em Educação Física pela ESEF/UPE, uma das
+        instituições mais respeitadas do país, construí uma base sólida em
+        movimento humano, fisiologia do exercício e controle de carga de treino.
       </p>
 
       <div class="social-contacts">
@@ -80,66 +84,64 @@ const mapsQuery = "Recife PE";
     <div class="links fade-in">
       <a target="_blank" href="https://w.app/31mytr" class="link">
         <img class="link-img" src="/assets/corrida.png" alt="" />
-        <span class="link-text">Marcar Aula Experimental</span>
+        <span class="link-text">Começe Aqui</span>
       </a>
 
-      <a
+      <!--
+       <a
         target="_blank"
         href="https://docs.google.com/forms/d/e/1FAIpQLSeQf52bKYTtCOIceTeeHrgHic4xjuaCWffknhH6T-5WcjOYMQ/viewform"
         class="link"
       >
         <img class="link-img" src="/assets/musculo.png" alt="" />
         <span class="link-text">Anamnese - Musculação</span>
-      </a>
+      </a> 
+     -->
     </div>
 
     <Card
       title="Planilha de Corrida"
-      text="Plano personalizado."
+      text="Você não precisa ser atleta para começar. só dar o primeiro passo. Crie seu plano e descubra do que é capaz!"
       imgSrc="/assets/img1.jpg"
       link="https://w.app/31mytr"
     />
     <Card
       title="Consultoria Online"
-      text="Treinos ajustados semanalmente."
+      text="Com a consultoria online, você terá um acompanhamento personalizado, com ajustes semanais e suporte direto comigo."
       imgSrc="/assets/img2.JPG"
       link="https://w.app/31mytr"
     />
 
+    <Card
+      title="Personal Trainer"
+      text="Treinos personalizados, acompanhamento presencial e foco nos seus objetivos."
+      imgSrc="/assets/personal.jpg"
+      link="https://w.app/31mytr"
+    />
+
     <Plans
-  title="Plano Mensal"
-  idealFor="Corredores iniciantes ou intermediários que desejam treinar com segurança, autonomia e propósito."
-  :prices="[
-    { label: 'Mensal', value: 'R$ 89,90' },
-  ]"
-  imgSrc="/assets/img5.jpg"
-  ctaText="🟩 Quero saber mais sobre o plano mensal"
-  ctaLink="https://w.app/31mytr"
-/>
+      title="Plano Mensal"
+      idealFor="Corredores iniciantes ou intermediários que desejam treinar com segurança, autonomia e propósito."
+      imgSrc="/assets/img5.jpg"
+      ctaText="🟩 Quero saber mais sobre o plano mensal"
+      ctaLink="https://w.app/31mytr"
+    />
 
-<Plans
-  title="Plano Semestral"
-  idealFor="Corredores que querem treinos contínuos e acompanhamento por 6 meses."
-  :prices="[
-    { label: 'Semestral', value: '6x R$ 49,90 ou R$ 299,40 à vista' }
-  ]"
-  imgSrc="/assets/img4.jpg"
-  ctaText="🟩 Plano mensal + Planilha Personalizada"
-  ctaLink="https://w.app/31mytr"
-/>
+    <Plans
+      title="Plano Semestral"
+      idealFor="Corredores que querem treinos contínuos e acompanhamento por 6 meses."
+      imgSrc="/assets/img4.jpg"
+      ctaText="🟩 Plano mensal + Planilha Personalizada"
+      ctaLink="https://w.app/31mytr"
+    />
 
-<Plans
-  title="Plano Anual"
-  idealFor="Corredores que desejam acompanhamento completo por 12 meses."
-  :prices="[
-    { label: 'Anual', value: '12x R$ 44,90 ou R$ 538,80 à vista' }
-  ]"
-  imgSrc="/assets/img7.jpg"
-  ctaText="🟩 Acompanhamento completo anual"
-  ctaLink="https://w.app/31mytr"
-/>
-
-
+    <Plans
+      title="Plano Anual"
+      idealFor="Corredores que desejam acompanhamento completo por 12 meses."
+      imgSrc="/assets/img7.jpg"
+      ctaText="🟩 Acompanhamento completo anual"
+      ctaLink="https://w.app/31mytr"
+    />
 
     <footer>© 2025 Mateus Pinho • Todos os direitos reservados</footer>
   </main>
