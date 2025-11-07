@@ -36,7 +36,7 @@ const mapsQuery = "Recife PE";
     <div class="header slide-down">
       <img class="eu" src="/assets/eu.jpg" alt="Mateus" />
       <h1 id="name">Mateus Pinho</h1>
-      <br>
+      <br />
       <p class="bio">
         Sou Mateus Pinho, personal trainer especializado em fortalecimento para
         corredores. Graduado em Educação Física pela ESEF/UPE, uma das
@@ -123,7 +123,7 @@ const mapsQuery = "Recife PE";
       title="Plano Mensal"
       idealFor="Corredores iniciantes ou intermediários que desejam treinar com segurança, autonomia e propósito."
       imgSrc="/assets/img5.jpg"
-      ctaText="🟩 Quero saber mais sobre o plano mensal"
+      ctaText="Quero saber mais sobre o plano mensal"
       ctaLink="https://w.app/31mytr"
     />
 
@@ -131,7 +131,7 @@ const mapsQuery = "Recife PE";
       title="Plano Semestral"
       idealFor="Corredores que querem treinos contínuos e acompanhamento por 6 meses."
       imgSrc="/assets/img4.jpg"
-      ctaText="🟩 Plano mensal + Planilha Personalizada"
+      ctaText="Plano mensal + Planilha Personalizada"
       ctaLink="https://w.app/31mytr"
     />
 
@@ -139,7 +139,7 @@ const mapsQuery = "Recife PE";
       title="Plano Anual"
       idealFor="Corredores que desejam acompanhamento completo por 12 meses."
       imgSrc="/assets/img7.jpg"
-      ctaText="🟩 Acompanhamento completo anual"
+      ctaText="Acompanhamento completo anual"
       ctaLink="https://w.app/31mytr"
     />
 
@@ -176,7 +176,7 @@ body {
   transition: 0.3s;
   display: flex;
   justify-content: center;
-  padding: 20px;
+  padding: 40px;
 }
 body.dark {
   background: #1b1b1b;
@@ -189,7 +189,7 @@ body.dark {
   max-width: 550px;
   width: 100%;
   padding: 40px 30px;
-  margin: 20px;
+  margin: 25px;
   border-radius: 28px;
   box-shadow: 0 6px 25px rgba(0, 0, 0, 0.15);
   text-align: center;
@@ -454,16 +454,197 @@ body.dark .floating-more:hover {
 }
 
 /* ===== RESPONSIVO ===== */
+/* ===== RESPONSIVO: MOBILE (até 480px) ===== */
 @media (max-width: 480px) {
+  /* body */
+  body {
+    padding: 16px;
+  }
+
+  /* container */
   .container {
-    padding: 25px 18px;
-    border-radius: 22px;
+    padding: 24px;
+    margin: 12px;
+    border-radius: 16px;
+    max-width: 100%;
+    width: auto;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12);
+    text-align: center;
+  }
+
+  /* avatar / header */
+  .eu {
+    width: 100px;
+    height: 100px;
+  }
+  .bio {
+    font-size: 0.95rem;
+    margin-bottom: 12px;
+  }
+
+  /* socials */
+  .socials {
+    gap: 12px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  .socials a {
+    font-size: 1.2rem;
+  }
+
+  /* contatos */
+  .social-contacts .contact {
+    padding: 8px 10px;
+    font-size: 0.9rem;
+  }
+
+  /* links / lista de links */
+  .links {
+    gap: 0.75rem;
+    margin-bottom: 18px;
   }
   .link {
+    padding: 0.75rem;
+    align-items: center;
+    gap: 0.6rem;
+  }
+  .link-img {
+    width: 48px;
+    height: 48px;
+    margin-right: 0.75rem;
+  }
+  .link-text {
     font-size: 0.95rem;
   }
+
+  /* cards: empilhar conteúdo (imagem em cima) */
+  .card {
+    flex-direction: column;
+    align-items: stretch;
+    padding: 0.75rem;
+  }
+  .card-img {
+    width: 100%;
+    height: auto;
+    max-height: 220px;
+    border-radius: 10px;
+    margin: 0 0 0.75rem 0;
+    object-fit: cover;
+  }
+  .card-content {
+    text-align: left;
+  }
+  .card-content h3 {
+    font-size: 1rem;
+  }
   .card-content p {
-    font-size: 0.85rem;
+    font-size: 0.9rem;
+    line-height: 1.45;
+  }
+
+  /* footer */
+  footer {
+    font-size: 0.78rem;
+    margin-top: 20px;
+  }
+
+  /* floating button: largura responsiva centralizada no rodapé */
+  .floating-more {
+    left: 50%;
+    transform: translateX(-50%);
+    width: calc(100% - 32px);
+    max-width: 420px;
+    bottom: 16px;
+    padding: 10px 16px;
+    border-radius: 28px;
+    font-size: 0.95rem;
+  }
+
+  /* botões de controle */
+  .floating-controls button {
+    padding: 8px 10px;
+  }
+
+  .floating-more {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+/* ===== RESPONSIVO: TABLET (até 768px) ===== */
+@media (max-width: 768px) {
+  body {
+    width: 100%;
+    display: contents;
+    padding: 24px;
+  }
+
+  .container {
+    margin: 18px;
+    border-radius: 20px;
+    padding: 32px 24px;
+  }
+
+  .eu {
+    width: 120px;
+    height: 120px;
+  }
+
+  .socials {
+    gap: 14px;
+  }
+
+  .link-img {
+    width: 56px;
+    height: 56px;
+  }
+
+  .card {
+    flex-direction: row;
+    gap: 12px;
+  }
+  .card-img {
+    width: 160px;
+    height: 120px;
+    margin-right: 0.9rem;
+  }
+  .card-content h3 {
+    font-size: 1.05rem;
+  }
+  .card-content p {
+    font-size: 0.95rem;
+  }
+
+  .floating-more {
+    width: 160px;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 20px;
+  }
+
+  .floating-more {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .dot {
+    text-align: center;
+  }
+}
+
+/* ===== RESPONSIVO ADICIONAL: pequena melhoria para telas muito largas ===== */
+@media (min-width: 1200px) {
+  .container {
+    max-width: 900px;
+    padding: 48px;
+    margin: 30px auto;
+  }
+  .card-img {
+    width: 220px;
+    height: 160px;
   }
 }
 </style>

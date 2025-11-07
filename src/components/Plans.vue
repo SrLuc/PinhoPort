@@ -40,6 +40,7 @@ const props = defineProps({
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   text-decoration: none;
   transition: background 0.3s, color 0.3s;
+  flex-wrap: wrap;
 }
 .plan-card:hover {
   background: #e0e0e0;
@@ -55,7 +56,7 @@ const props = defineProps({
   flex: 1;
 }
 .plan-content h3 {
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   color: #222;
   margin-bottom: 0.3rem;
 }
@@ -85,6 +86,7 @@ const props = defineProps({
   border-radius: 8px;
   font-weight: bold;
   transition: background 0.3s;
+  font-size: 0.95rem;
   cursor: pointer;
 }
 .plan-cta:hover {
@@ -103,4 +105,27 @@ body.dark .plan-ideal,
 body.dark .plan-price {
   color: #ccc;
 }
+
+@media (max-width: 600px) {
+  .plan-card {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .plan-img {
+    margin-right: 0;
+    margin-bottom: 1rem;
+    width: 100%;
+    height: 50%;
+  }
+
+  .plan-cta {
+    text-align: center;
+    width: 100%;
+    padding: 0.7rem 0;
+    margin-top: 0.5rem;
+  }
+
+  
+}
+
 </style>

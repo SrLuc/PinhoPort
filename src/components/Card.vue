@@ -36,6 +36,7 @@ const props = defineProps({
   margin-bottom: 1rem;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   transition: background 0.3s, color 0.3s;
+  flex-wrap: wrap;
 }
 .card:hover {
   background: #e0e0e0;
@@ -65,4 +66,18 @@ body.dark .card:hover {
 body.dark .card-content p {
   color: #ccc;
 }
+
+@media (max-width: 600px) {
+  .card {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .card-img {
+    margin-right: 0;
+    margin-bottom: 1rem;
+    width: 100%;
+    height: auto;
+  }
+}
+
 </style>
