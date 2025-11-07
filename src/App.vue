@@ -186,9 +186,10 @@ body.dark {
 /* ===== CONTAINER ===== */
 .container {
   background: #fff;
-  max-width: 600px;
+  max-width: 550px;
   width: 100%;
   padding: 40px 30px;
+  margin: 20px;
   border-radius: 28px;
   box-shadow: 0 6px 25px rgba(0, 0, 0, 0.15);
   text-align: center;
