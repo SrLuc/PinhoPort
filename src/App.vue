@@ -45,7 +45,7 @@ const mapsQuery = "Recife PE";
       </p>
 
       <div class="social-contacts">
-        <a href="wa.link/7qa7fy" class="contact" target="_blank">
+        <a href="https://wa.me/5581997684836?text=Ol%C3%A1%20Mateus%20%0A%0AEstou%20entrando%20em%20contato%20porque%20gostaria%20de%20saber%20mais%20sobre%20os%20treinos%20e%20consultoria%0A%0APoderia%20me%20ajudar%20com%20informa%C3%A7%C3%B5es%20sobre%20os%20planos%20%3F%20%0A%0AObrigado!" class="contact" target="_blank">
           <i class="fab fa-whatsapp"></i>
           <span>📱 {{ whatsappNumberDisplay }}</span>
         </a>
@@ -82,7 +82,7 @@ const mapsQuery = "Recife PE";
     </div>
 
     <div class="links fade-in">
-      <a target="_blank" href="wa.link/7qa7fy" class="link">
+      <a target="_blank" href="https://wa.me/5581997684836?text=Ol%C3%A1%20Mateus%20%0A%0AEstou%20entrando%20em%20contato%20porque%20gostaria%20de%20saber%20mais%20sobre%20os%20treinos%20e%20consultoria%0A%0APoderia%20me%20ajudar%20com%20informa%C3%A7%C3%B5es%20sobre%20os%20planos%20%3F%20%0A%0AObrigado!" class="link">
         <img class="link-img" src="/assets/corrida.png" alt="" />
         <span class="link-text">Começe Aqui</span>
       </a>
@@ -103,20 +103,20 @@ const mapsQuery = "Recife PE";
       title="Planilha de Corrida"
       text="Você não precisa ser atleta para começar. só dar o primeiro passo. Crie seu plano e descubra do que é capaz!"
       imgSrc="/assets/img1.jpg"
-      link="wa.link/7qa7fy"
+      link="https://wa.me/5581997684836?text=Ol%C3%A1%20Mateus%20%0A%0AEstou%20entrando%20em%20contato%20porque%20gostaria%20de%20saber%20mais%20sobre%20os%20treinos%20e%20consultoria%0A%0APoderia%20me%20ajudar%20com%20informa%C3%A7%C3%B5es%20sobre%20os%20planos%20%3F%20%0A%0AObrigado!"
     />
     <Card
       title="Consultoria Online"
       text="Com a consultoria online, você terá um acompanhamento personalizado, com ajustes semanais e suporte direto comigo."
       imgSrc="/assets/img2.JPG"
-      link="wa.link/7qa7fy"
+      link="https://wa.me/5581997684836?text=Ol%C3%A1%20Mateus%20%0A%0AEstou%20entrando%20em%20contato%20porque%20gostaria%20de%20saber%20mais%20sobre%20os%20treinos%20e%20consultoria%0A%0APoderia%20me%20ajudar%20com%20informa%C3%A7%C3%B5es%20sobre%20os%20planos%20%3F%20%0A%0AObrigado!"
     />
 
     <Card
       title="Personal Trainer"
       text="Treinos personalizados, acompanhamento presencial e foco nos seus objetivos."
       imgSrc="/assets/personal.jpg"
-      link="wa.link/7qa7fy"
+      link="https://wa.me/5581997684836?text=Ol%C3%A1%20Mateus%20%0A%0AEstou%20entrando%20em%20contato%20porque%20gostaria%20de%20saber%20mais%20sobre%20os%20treinos%20e%20consultoria%0A%0APoderia%20me%20ajudar%20com%20informa%C3%A7%C3%B5es%20sobre%20os%20planos%20%3F%20%0A%0AObrigado!"
     />
 
     <Plans
@@ -124,7 +124,7 @@ const mapsQuery = "Recife PE";
       idealFor="Corredores iniciantes ou intermediários que desejam treinar com segurança, autonomia e propósito."
       imgSrc="/assets/img5.jpg"
       ctaText="Quero saber mais sobre o plano mensal"
-      ctaLink="wa.link/7qa7fy"
+      ctaLink="https://wa.me/5581997684836?text=Ol%C3%A1%20Mateus%20%0A%0AEstou%20entrando%20em%20contato%20porque%20gostaria%20de%20saber%20mais%20sobre%20os%20treinos%20e%20consultoria%0A%0APoderia%20me%20ajudar%20com%20informa%C3%A7%C3%B5es%20sobre%20os%20planos%20%3F%20%0A%0AObrigado!"
     />
 
     <Plans
@@ -132,7 +132,7 @@ const mapsQuery = "Recife PE";
       idealFor="Corredores que querem treinos contínuos e acompanhamento por 6 meses."
       imgSrc="/assets/img4.jpg"
       ctaText="Plano mensal + Planilha Personalizada"
-      ctaLink="wa.link/7qa7fy"
+      ctaLink="https://wa.me/5581997684836?text=Ol%C3%A1%20Mateus%20%0A%0AEstou%20entrando%20em%20contato%20porque%20gostaria%20de%20saber%20mais%20sobre%20os%20treinos%20e%20consultoria%0A%0APoderia%20me%20ajudar%20com%20informa%C3%A7%C3%B5es%20sobre%20os%20planos%20%3F%20%0A%0AObrigado!"
     />
 
     <Plans
@@ -140,7 +140,7 @@ const mapsQuery = "Recife PE";
       idealFor="Corredores que desejam acompanhamento completo por 12 meses."
       imgSrc="/assets/img7.jpg"
       ctaText="Acompanhamento completo anual"
-      ctaLink="wa.link/7qa7fy"
+      ctaLink="https://wa.me/5581997684836?text=Ol%C3%A1%20Mateus%20%0A%0AEstou%20entrando%20em%20contato%20porque%20gostaria%20de%20saber%20mais%20sobre%20os%20treinos%20e%20consultoria%0A%0APoderia%20me%20ajudar%20com%20informa%C3%A7%C3%B5es%20sobre%20os%20planos%20%3F%20%0A%0AObrigado!"
     />
 
     <footer>© 2025 Mateus Pinho • Todos os direitos reservados</footer>
