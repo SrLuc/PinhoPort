@@ -45,7 +45,7 @@ const mapsQuery = "Recife PE";
       </p>
 
       <div class="social-contacts">
-        <a href="https://w.app/31mytr" class="contact" target="_blank">
+        <a href="wa.link/7qa7fy" class="contact" target="_blank">
           <i class="fab fa-whatsapp"></i>
           <span>📱 {{ whatsappNumberDisplay }}</span>
         </a>
@@ -82,7 +82,7 @@ const mapsQuery = "Recife PE";
     </div>
 
     <div class="links fade-in">
-      <a target="_blank" href="https://w.app/31mytr" class="link">
+      <a target="_blank" href="wa.link/7qa7fy" class="link">
         <img class="link-img" src="/assets/corrida.png" alt="" />
         <span class="link-text">Começe Aqui</span>
       </a>
@@ -103,20 +103,20 @@ const mapsQuery = "Recife PE";
       title="Planilha de Corrida"
       text="Você não precisa ser atleta para começar. só dar o primeiro passo. Crie seu plano e descubra do que é capaz!"
       imgSrc="/assets/img1.jpg"
-      link="https://w.app/31mytr"
+      link="wa.link/7qa7fy"
     />
     <Card
       title="Consultoria Online"
       text="Com a consultoria online, você terá um acompanhamento personalizado, com ajustes semanais e suporte direto comigo."
       imgSrc="/assets/img2.JPG"
-      link="https://w.app/31mytr"
+      link="wa.link/7qa7fy"
     />
 
     <Card
       title="Personal Trainer"
       text="Treinos personalizados, acompanhamento presencial e foco nos seus objetivos."
       imgSrc="/assets/personal.jpg"
-      link="https://w.app/31mytr"
+      link="wa.link/7qa7fy"
     />
 
     <Plans
@@ -124,7 +124,7 @@ const mapsQuery = "Recife PE";
       idealFor="Corredores iniciantes ou intermediários que desejam treinar com segurança, autonomia e propósito."
       imgSrc="/assets/img5.jpg"
       ctaText="Quero saber mais sobre o plano mensal"
-      ctaLink="https://w.app/31mytr"
+      ctaLink="wa.link/7qa7fy"
     />
 
     <Plans
@@ -132,7 +132,7 @@ const mapsQuery = "Recife PE";
       idealFor="Corredores que querem treinos contínuos e acompanhamento por 6 meses."
       imgSrc="/assets/img4.jpg"
       ctaText="Plano mensal + Planilha Personalizada"
-      ctaLink="https://w.app/31mytr"
+      ctaLink="wa.link/7qa7fy"
     />
 
     <Plans
@@ -140,7 +140,7 @@ const mapsQuery = "Recife PE";
       idealFor="Corredores que desejam acompanhamento completo por 12 meses."
       imgSrc="/assets/img7.jpg"
       ctaText="Acompanhamento completo anual"
-      ctaLink="https://w.app/31mytr"
+      ctaLink="wa.link/7qa7fy"
     />
 
     <footer>© 2025 Mateus Pinho • Todos os direitos reservados</footer>
